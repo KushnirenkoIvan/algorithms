@@ -1,7 +1,5 @@
 package ua.kushnirenko.algorithms.sort;
 
-import java.util.Arrays;
-
 /**
  * Сортировка Шелла
  * <p>
@@ -33,15 +31,5 @@ public class ShellSort implements Sorter {
             }
             h /= 3;
         }
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {3, -3, 7, 12, 2, -2, 35, 4, 75, 16, 0, 1};
-
-        Sorter selectionSorter = new ShellSort();
-
-        selectionSorter.sort(arr);
-
-        System.out.println(Arrays.toString(arr));
     }
 }
