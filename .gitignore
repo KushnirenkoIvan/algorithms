@@ -16,7 +16,6 @@ hs_err_pid*
 .idea/modules.xml
 .idea/vcs.xml
 .idea/workspace.xml
-src/main/java/ua/kushnirenko/algorithms/find/
-src/main/resources/
+
 src/test/
 target/
